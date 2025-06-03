@@ -1,0 +1,344 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Lobster", sans-serif;
+}
+
+#container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.logo {
+    width: 90px;
+    border-radius: 15px;
+    padding-top: 5px;
+
+}
+
+.list-items {
+    list-style: none;
+    display: inline;
+    margin: 0px 20px
+}
+
+.links {
+    text-decoration: none;
+    font-weight: 600;
+    /* font wight should always give greater than 500 */
+    color: black;
+
+}
+
+.home-content {
+    margin: 13% 0px 0px 8%;
+}
+
+.links:hover {
+    text-decoration: underline;
+    color: lightsalmon;
+
+}
+
+#username {
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: "Dancing Script", cursive;
+}
+
+#lname {
+    font-family: "Dancing Script", cursive;
+    color: orange;
+}
+
+#user-detail {
+    line-height: 1.5;
+}
+
+#download {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.home-image {
+
+    width: 45%;
+    height: 45%;
+    position: absolute;
+    right: 30px;
+    top: 130px;
+    
+
+}
+
+.grp1 {
+    position: absolute;
+    height: 100%;
+    bottom: 0px;
+    left: 20%;
+    transform: translateX(-20);
+    transition: bottom 3s, left 2s;
+
+}
+
+.home-image:hover #shape {
+    bottom: 90px;
+
+}
+
+.home-image:hover #girl {
+
+    left: 35%;
+}
+
+.home-content {
+    margin-left: 50px;
+    align-items: centre;
+}
+
+#about {
+    margin: 8% 8% 0px 8%;
+}
+
+.sectionhead {
+    text-align: center;
+}
+
+.mainhead {
+    font-size: 30px;
+
+}
+
+.subhead {
+    font-size: 25;
+    color: brown;
+}
+
+.aboutbody {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    align-items:center;
+    
+}
+.aboutcontent{
+    font-size: 20px;
+    text-align: justify;
+}
+
+ .img1 {
+    /* height: 190px;
+    width:500px;
+    margin-left: 0px;
+   
+    text-align: center; */
+    height:400px;
+
+} 
+
+
+/* .aboutimages {
+    /* margin-bottom: 100px; */
+    
+    
+ */
+
+.information {
+    margin-top: 20px;
+}
+
+.infobox {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.infobox>span {
+    margin-left: 1rem;
+}
+
+#skill {
+
+    margin: 8% 8% 0% 8%;
+}
+
+.skillcontent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+    margin-top: 20px;
+    padding: 40px;
+}
+
+.bars {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 1rem 0px;
+}
+
+.myskill {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.basebar {
+
+    width: 100%;
+    height: 0.5rem;
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0px;
+
+
+}
+
+.barpercentage,
+.barhead {
+    font-weight: 500;
+    font-size: 1.3rem;
+
+}
+
+.htmlbar {
+    width: 82%;
+    background-color: orange;
+
+}
+
+.cssbar {
+
+    width: 82%;
+    background-color: orange;
+
+}
+
+.jsbar {
+
+    width: 80%;
+    background-color: orange;
+
+}
+
+.Reactbar {
+
+    width: 90%;
+    background-color: orange;
+
+}
+
+#contact {
+    margin: 5% 8% 0px 8%;
+}
+
+.iconCollections {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 60%;
+    /* border:solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+    padding: 40px;
+
+
+}
+
+.brands {
+    color: black;
+    font-size: 2rem;
+}
+
+.icon:hover {
+    background-image: linear-gradient(to bottom right, green, black);
+}
+
+.icon:hover .brands {
+    color: white;
+}
+
+.icon:hover .brands {
+    color: white;
+    /* Animation */
+    animation: rotate 5s;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(40deg);
+    }
+
+    20% {
+        transform: rotate(-40deg);
+    }
+
+    40% {
+        transform: rotate(40deg);
+    }
+
+    60% {
+        transform: rotate(-40deg);
+    }
+
+    80% {
+        transform: rotate(40deg);
+    }
+
+    100% {
+        transform: rotate(-40deg);
+    }
+}
+
+footer {
+        margin-top:8%;
+}
+#copyright{
+
+  text-align: center;
+  color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    padding-bottom: 0px;
+}
+.upArrow{
+    float:right;
+    margin: -40px,20px 20px 0px;
+}
+::-webkit-scrollbar{
+    width:10px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: lightcyan;
+
+}
+::-webkit-scrollbar-thumb{
+    background-color: orange;
+    border-radius: 10px;
+}

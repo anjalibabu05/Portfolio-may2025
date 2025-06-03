@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lobster&family=Playwrite+HU:wght@100..400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <!-- header -->
+        <nav>
+            <!-- logo -->
+            <img class="logo" src="./images/new logoforhost.avif" alt="logo">
+            <!-- links -->
+            <ul>
+                <li class="list-items"><a class="links" href="#home-content">HOME</a></li>
+                <li class="list-items"><a class="links" href="#about">About</a></li>
+                <li class="list-items"><a class="links" href="#skill">Skills</a></li>
+                <li class="list-items"><a class="links" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- home -->
+        <section>
+            <div class="home-content">
+                <h1 class="animate__animated animate__bounce" id="username">I am Angle<span id="lname"> Maria</span>
+                </h1>
+                <p id="user-detail">I'm Angle, a curious and dedicated learner who blends creativity with logic to
+                    solve real-world problems. <br>With a positive mindset and a passion for technology, I strive to
+                    grow, help others, and make a lasting impact.</p>
+                <a href="./images/DOC-20250224-WA0012. (1).pdf" id="download" download="">DOWNLOAD CV</a>
+            </div>
+            <div class="home-image">
+                <!-- shape -->
+                <img src="./images/potato-removebg-preview.png" alt="girl" class="grp1" id="shape">
+                <!-- girl -->
+                <img src="./images/women-removebg-preview.png" alt="shape" class="grp1" id="girl">
+            </div>
+        </section>
+        <!-- About -->
+        <section id="about">
+            <div class="sectionhead">
+                <h2 class="mainhead">About Me</h2>
+                <span class="subhead">Introduction</span>
+            </div>
+            <div class="aboutbody">
+                <div class="aboutimages">
+                    <img class="img1" src="./images/selflove.webp" alt="about" data-aos="fade-right"
+                        data-aos-offset="300" data-aos-easing="ease-in-sine">
+                </div>
+                <div class="aboutcontent">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur id ipsam excepturi
+                        obcaecati non vitae ex placeat, iure impedit optio? Molestias provident magnam, dolorum modi
+                        aperiam amet doloribus maiores quas?</p>
+                    <div class="information">
+                        <div class="infobox">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Angle Mariya</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>8089398677</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>angelmariya@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- skills -->
+        <section class="skill">
+            <div class="sectionhead">
+                <h2 class="mainhead">Skill Image</h2>
+                <span class="subhead">My Skills</span>
+            </div>
+            <div class="skillcontent">
+                <div class="progressbar">
+                    <div class="bars">
+                        <h3 class="barhead">HTML</h3>
+                        <span class="barpercentage">82%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                            class="basebar htmlbar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barhead">CSS</h3>
+                        <span class="barpercentage">82%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                            class="basebar cssbar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barhead">JavaScript</h3>
+                        <span class="barpercentage">80%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class=" basebar
+                            jsbar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barhead">React</h3>
+                        <span class="barpercentage">90%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                            class="basebar Reactbar"></div>
+                    </div>
+
+                </div>
+                <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="skilimage">
+                    <img class="myskill" src="./images/skills.png" alt="skill">
+                </div>
+
+            </div>
+
+        </section>
+        <!-- contacts -->
+        <section id="contact">
+            <div class="sectionhead">
+                <h2 class="mainhead">Contact</h2>
+                <span class="subhead">My Contact</span>
+            </div>
+            <div class="iconCollections">
+                <!-- linkedin -->
+                <div class="icon">
+                    <a href="www.linkedin.com/in/anjaly-babu-843334307 brands " target="_blank"><i
+                            class="fa-brands fa-linkedin-in  brands"></i></a>
+
+                </div>
+                <!-- github -->
+
+                <div class="icon"> <a href="www.linkedin.com/in/anjaly-babu-843334307 " target="blank"><i
+                            class="fa-brands fa-github  brands"> </i></div>
+                <!-- twitter -->
+                <div class="icon"> <a href="www.linkedin.com/in/anjaly-babu-843334307"><i
+                            class="fa-brands fa-x-twitter  brands"></i></a></div>
+                <!-- whatsapp -->
+                <div class="icon"> <a href="www.linkedin.com/in/anjaly-babu-843334307 "><i
+                            class="fa-brands fa-whatsapp  brands"></i></i>
+                </div>
+                <div class="icon"> <a href="www.linkedin.com/in/anjaly-babu-843334307 ">
+                        <i class="fa-brands fa-instagram brands"></i>
+                </div>
+            </div>
+
+
+        </section>
+        <!-- footer -->
+        <footer>
+            <p id="copyright"> &copy; My portfolio Website- june 2025,All RightsReserved to &reg;; Anjaly Babu</p>
+            <div class="icon upArrow">
+                <a href=" #container"><i class="fa-solid fa-angle-up brands"></i></a>
+
+            </div>
+
+        </footer>
+
+
+
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+
+</html>
